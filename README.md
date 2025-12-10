@@ -77,13 +77,7 @@ This allows:
 	•	Seamless CI/CD pipeline operation
 	•	Secure production deployment
 
-## Configuration
-
-### Application Properties
-
-Edit `src/main/resources/application.yml`:
-
-### Key Generation
+## Key Generation
 openssl rand -base64 32
 Copy this output into:
 	•	AES_KEY_B64 for local development or CI/CD
@@ -186,3 +180,9 @@ From the project root:
 ```bash
 mvn test
 ```
+## Configuration
+
+### Application Properties
+
+Edit `src/main/resources/application.yml`:
+
