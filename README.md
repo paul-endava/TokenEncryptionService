@@ -21,6 +21,11 @@ This service provides secure, production-ready encryption and decryption of toke
 - ✅ Comprehensive unit and integration tests
 - ✅ AWS Secrets Manager integration for production
 
+## Pre-requisites
+- Java 17 or higher
+- Maven 3.6+
+- (Production only) AWS account with Secrets Manager access
+
 ## Architecture
 
 ### Core Components
@@ -71,11 +76,6 @@ This allows:
 	•	Seamless local dev
 	•	Seamless CI/CD pipeline operation
 	•	Secure production deployment
-
-### Pre-requisites
-- Java 17 or higher
-- Maven 3.6+
-- (Production only) AWS account with Secrets Manager access
 
 ## Configuration
 
