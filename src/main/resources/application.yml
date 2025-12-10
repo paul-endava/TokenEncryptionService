@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+crypto:
+  aes-key-secret-name: myapp/aes-key  # matches your Python service
+
+aws:
+  region: us-east-1
+
+spring:
+  profiles:
+    active: local
