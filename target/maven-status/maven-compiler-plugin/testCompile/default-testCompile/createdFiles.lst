@@ -1,0 +1,5 @@
+com/br/crypto/CryptoServiceTest.class
+com/br/crypto/CryptoServiceIntegrationTest.class
+com/br/crypto/TestResultLogger.class
+com/br/crypto/CryptoServiceIntegrationTest$TestKeyProviderConfig.class
+com/br/crypto/CryptoServiceTest$TestKeyProvider.class

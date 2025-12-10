@@ -94,10 +94,11 @@ Copy this output into:
 export SPRING_PROFILES_ACTIVE=local
 export AES_KEY_B64="base64-encoded-32-byte-key"
 
-mvn spring-boot:run```
-### CI/CD (e.g., GitHub Actions or GitLab ENV variables
+mvn spring-boot:run
 ```
-```YAML
+### CI/CD (e.g., GitHub Actions or GitLab ENV variables
+
+```BASH
 env:
 SPRING_PROFILES_ACTIVE: local
 AES_KEY_B64: ${{ secrets.AES_KEY_B64 }}

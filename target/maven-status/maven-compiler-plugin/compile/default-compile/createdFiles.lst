@@ -1,0 +1,6 @@
+com/br/crypto/AwsProperties.class
+com/br/crypto/AesKeyProvider.class
+com/br/crypto/CryptoProperties.class
+com/br/crypto/CryptoService.class
+com/br/crypto/KeyProvider.class
+com/br/crypto/EncryptionServiceApplication.class
