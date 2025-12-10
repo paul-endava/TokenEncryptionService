@@ -42,7 +42,7 @@ The service uses a **fallback chain** to retrieve the encryption key. Keys are l
 Key management is intentionally flexible and environment-aware.  
 The service loads a 256-bit AES key using a *fallback chain*
 
-### **1. Unit Tests & Integration Tests (test profile)**
+### **1. Unit Tests & Integration Tests (`test` profile)**
 - Key is injected via a test-scoped `@Primary KeyProvider` bean.
 - No AWS calls occur.
 - Tests are deterministic and isolated.
